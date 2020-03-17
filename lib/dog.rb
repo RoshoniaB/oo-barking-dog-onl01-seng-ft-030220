@@ -4,6 +4,7 @@ class Dog
     @dog_name = yama
   end
   
-  def @dog_name
-    
+  def name 
+    @dog_name
+  end
 end 
