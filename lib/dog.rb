@@ -10,5 +10,12 @@ class Dog
   
   def bark
     puts "Woof"
-  end  
+  end
 end 
+
+yama = Dog.new
+yama.name = "yama"
+
+yama.name 
+
+yama.bark
