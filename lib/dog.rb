@@ -4,8 +4,8 @@ class Dog
     @dog_name 
   end
   
-  def name=yama
-    @dog_name = 
+  def name=(yama)
+    @dog_name = yama
   end
   
   def bark
